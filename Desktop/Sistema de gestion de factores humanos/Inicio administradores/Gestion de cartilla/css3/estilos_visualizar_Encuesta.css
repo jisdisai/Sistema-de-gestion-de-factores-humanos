@@ -1,0 +1,318 @@
+#encabezado{
+	margin-left: 0px;
+	background-color: #272827;
+	width: 100%;
+	height: 100px;
+	border-color: black;
+	border: solid;
+	border:1px;
+}
+#boton_volver{
+	height: 100%;
+	width: 10%;
+	background-color:#272827;
+	color:white;
+	border:none;
+}
+#boton_volver:hover{
+	background-color: #424949;
+}
+#div_identificadorUsuario{
+	width: 30%;
+	height: 100%;
+	float: right;
+	color:white;
+
+}
+#div_iconoUsuario{
+	width: 30%;
+	height: 100%;
+	float: left;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+#circulo{
+	width: 75px;
+    height: 75px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    display: flex;
+  	justify-content: center;
+  	align-items: center;
+    background: #BDC3C7;
+}
+#div_etiquetaUsuario{
+	width: 70%;
+	height: 100%;
+	float: right;
+	font-family: sans-serif;
+}
+#nombreUsuario{
+	table-layout: fixed;
+	width: 100%;
+	height: 50%;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	color: white;
+}
+#div_contenedorBarraSesion{
+	width: 100%;
+	height: 100%;
+
+}
+#div_identificadorTipoUsuario{
+	width: 100%;
+	height: 50%;
+	color:white;
+	
+
+}
+#identificadorTipoUsuario{
+	cursor:pointer;
+	width: 80%;
+	height: 100%;
+	color:white;
+	float: left;
+	display: flex;
+	justify-content: center;
+  	align-items: center;
+	color: white;
+}
+#div_identificadorTipoUsuario:hover{
+	background-color: #575A5B;
+
+}
+#div_triangulo{
+	width: 20%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+  	align-items: center;
+  	
+}
+#triangulo{
+	width: 0;
+    height: 0;
+    border-left: 6.25px solid transparent;
+    border-right: 6.25px solid transparent;
+    border-top: 12.5px solid white;
+}
+#div_cerrarSesion{
+	cursor:pointer;
+	width: 100%;
+	height: 50%;
+	background-color: black;
+	opacity: 0.5;
+	display: flex;
+	justify-content: center;
+  	align-items: center;
+  	display: none;
+}
+#div_cerrarSesion:hover{
+	text-decoration:underline;
+}
+.contenedorPrincipal{
+	display: block;
+	width: 100%;
+	height: 700px;
+	margin: 0px;
+	background-color: #E5E7E9;
+	font-family: calibri;
+}
+#vistaPreviaEncuesta{
+	overflow-y: scroll;
+	border:solid;
+	border-width: 1px;
+	border-color:#3B3C3D;
+	width: 80%;
+	height: 50%;
+	top: 15%;
+	padding:0;
+	margin-left: 10%;
+	margin-top:2%;
+	background-color: white;
+}
+#formularioNuevaPregunta{
+	display: none;
+	overflow-y: scroll;
+	width: 80%;
+	height: 70%;
+	top: 15%;
+	padding:0;
+	margin-left: 10%;
+	margin-top:2%;
+	padding: 0;
+	border:solid;
+	border-width: 1px;
+	border-color: #707B7C;
+	justify-content: center;
+  	align-items: center;
+	background-color: white;
+}
+#div_informacionPregunta{
+	width: 30%;
+	height: 10%;
+	margin-left: 28%;
+
+
+}
+#etiqueta_areaEvaluacion{
+	text-align: center;
+}
+#areaEvaluacion{
+	text-align: center;
+	width: 30%;
+	border:none;
+	float: right;
+	padding: 0;
+	margin-top: 3px;
+}
+#nPregunta{
+	text-align: center;
+	width: 30%;
+	border:none;
+	float: right;
+	padding: 0;
+	margin-top: 3px;
+}
+#etiqueta_descripcionPregunta{
+	margin-left: 10%;
+}
+#textAreaDespcripcionPregunta{
+	width: 70%;
+	height: 20%;
+	margin-left:15%;
+	margin-bottom: 2%;
+}
+#etiqueta_tipoRespuesta{
+	margin-left: 10%;
+}
+#div_tipoRespuesta{
+	width: 70%;
+	height: 20%;
+	margin-left: 15%;
+}
+#respuestasCerradas, #limitesEscala{
+	width: 30%;
+	height: 75%;
+	margin-left: 35%;
+}
+#valorMinimo, #valorMaximo{
+	width: 20%;
+	float: right;
+	padding: 0;
+	margin: 0;
+}
+#botonesVistaPreviaEncuesta{
+	position: relative;
+	margin-top: 10px;
+	left: 10%;
+	width: 80%;
+	height: 10%;
+}
+#botonesVistaPreviaEncuesta button:hover{
+	background-color: #196F3D;
+	transition: 0.5s;
+}
+#botonAgregarPregunta{
+	border: none;
+	float:right;
+	height: 100%;
+	color:white;
+	background-color: #2ECC71;
+}
+#botonesNuevaPregunta{
+	background-color: brown;
+	display: none;
+	position: relative;
+	margin-top: 10px;
+	float: right;
+	margin-right: 2%; 
+	width: 30%;
+	height: 10%;
+}
+#guardarNuevaPregunta{
+	float: left;
+	width: 50%;
+	height: 100%;
+	border:none;
+	margin:none;
+	color:white;
+	background-color: #2ECC71;
+}
+#guardarNuevaPregunta:hover{
+	background-color: #196F3D;
+}
+#cancelarNuevaPregunta{
+	float: right;
+	height: 100%;
+	width:50%;
+	border:none;
+	margin:none;
+	color: white;
+	background-color:#EC7063;
+}
+#cancelarNuevaPregunta:hover{
+	background-color: #B03A2E;
+}
+#ColumnasTablaPreguntas{
+	width: 100%;
+	height: 5%;
+	background-color: #797D7F;
+}
+#TablaPreguntas{
+	width: 100%;
+}
+
+.filaTablaPreguntas{
+
+	background-color: white;
+}
+.celdaTablaPreguntas{
+	margin: 0;
+	padding: 0;
+	border:none;
+	border-spacing: 0px;
+
+}
+.columnaPreguntas{
+	border:none;
+	background-color:  #272827;
+	color:white;
+}
+.botonEditarPregunta{
+	border:0;
+	float:left;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	width: 50%;
+	height: 50px;
+	color:white;
+	background-color: #2ECC71;
+}
+
+.botonEliminarPregunta{
+	border:0;
+	float: right;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-left: 0;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	width: 50%;
+	height: 50px;
+	color: white;
+	background-color: #EC7063;
+}

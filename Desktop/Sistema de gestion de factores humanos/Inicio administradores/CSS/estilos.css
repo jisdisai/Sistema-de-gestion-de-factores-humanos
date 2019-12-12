@@ -1,0 +1,210 @@
+#encabezado{
+	width:100%;
+	height: 100px;
+	background-color: #272827;
+	margin:0;
+	padding: 0;
+	border:solid 1px #717073;
+}
+#div_identificadorPagina{
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+#div_iconoPagina{
+	width: 50%;
+	height: 100%;
+	float: left;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+#div_etiquetaPagina{
+	width: 50%;
+	height: 100%;
+	float: right;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+#etiquetaPagina{
+	width: 100%;
+	font-family: sans-serif;
+	font-size: 50px;
+	color: #707B7C;
+	text-align: left;
+}
+#div_identificadorUsuario{
+	width: 30%;
+	height: 100%;
+	float: right;
+	color:white;
+
+}
+#div_contenedorPrincipal{
+	width: 100%;
+	height: 600px;
+	margin: 0;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+
+}
+#div_iconoUsuario{
+	width: 30%;
+	height: 100%;
+	float: left;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+#circulo{
+	width: 60px;
+    height: 60px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    display: flex;
+  	justify-content: center;
+  	align-items: center;
+    background: #BDC3C7;
+}
+#div_etiquetaUsuario{
+	width: 70%;
+	height: 100%;
+	float: right;
+	font-family: sans-serif;
+}
+#nombreUsuario{
+	table-layout: fixed;
+	width: 100%;
+	height: 50%;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	color: white;
+}
+#div_contenedorBarraSesion{
+	width: 100%;
+	height: 100%;
+
+}
+#div_identificadorTipoUsuario{
+	width: 100%;
+	height: 50%;
+	color:white;
+	
+
+}
+#identificadorTipoUsuario{
+	cursor:pointer;
+	width: 80%;
+	height: 100%;
+	color:white;
+	float: left;
+	display: flex;
+	justify-content: center;
+  	align-items: center;
+	color: white;
+}
+#div_identificadorTipoUsuario:hover{
+	background-color: #575A5B;
+
+}
+#div_triangulo{
+	width: 20%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+  	align-items: center;
+  	
+}
+#triangulo{
+	width: 0;
+    height: 0;
+    border-left: 6.25px solid transparent;
+    border-right: 6.25px solid transparent;
+    border-top: 12.5px solid white;
+}
+#div_cerrarSesion{
+	cursor:pointer;
+	width: 100%;
+	height: 50%;
+	background-color: black;
+	opacity: 0.5;
+	display: flex;
+	justify-content: center;
+  	align-items: center;
+  	display: none;
+}
+#div_cerrarSesion:hover{
+	text-decoration:underline;
+}
+#div_contenedorSecundario{
+	width:60%;
+	height: 70%;
+	
+}
+#div_contenedorSecundarioMitad1{
+	height: 100%;
+	width: 45%;
+	float: left;
+	display: block;
+
+	
+}
+#div_contenedorSecundarioMitad2{
+	height: 100%;
+	width: 45%;
+	float: right;
+	display: block;	
+
+}
+#boton_gestionCartilla{
+	width: 100%;
+	height: 45%;
+	margin-bottom: 10%;
+	background-color: #90CD53;
+	border:solid 1px #1D8348;
+	cursor: pointer;
+}
+#boton_gestionSeguridad{
+	width: 100%;
+	height: 45%;
+	background-color: #5270FF;
+	border: solid 1px #241054;
+	cursor: pointer;
+}
+#boton_reportes{
+	width: 100%;
+	height: 45%;
+	margin-bottom: 10%;
+	border: solid 1px #B9770E;
+	background-color: #FFBD4A;
+	cursor: pointer;
+}
+#boton_usuarios{
+	width: 100%;
+	height: 45%;
+	background-color: #1296DB;
+	border:solid 1px #21618C;
+	cursor: pointer;
+}
+.etiquetaEnlace{
+	width: 50%;
+	height: 30%;
+	margin-top: 20%;
+	font-family: sans-serif;
+	text-align: center;
+  	float: left;
+  	color:white;
+  	font-size: 25px;
+}
+.etiquetaEnlace:hover{
+	text-decoration: underline;
+}
+.iconoEnlace{
+	width: 50%;
+	height: 100%;
+	float: right;
+}

@@ -1,0 +1,527 @@
+#encabezado{
+	width:100%;
+	height: 100px;
+	background-color: #272827;
+	margin:0;
+	padding: 0;
+}
+#div_identificadorPagina{
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+#div_iconoPagina{
+	width: 25%;
+	height: 100%;
+	float: left;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+#div_etiquetaPagina{
+	width: 75%;
+	height: 100%;
+	float: right;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	table-layout: fixed;
+}
+#etiquetaPagina{
+	width: 100%;
+	font-family: sans-serif;
+	font-size: 30px;
+	color: #707B7C;
+	text-align: left;
+}
+#div_identificadorUsuario{
+	width: 30%;
+	height: 100%;
+	float: right;
+	color:white;
+
+}
+#div_iconoUsuario{
+	width: 30%;
+	height: 100%;
+	float: left;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+#circulo{
+	width: 75px;
+    height: 75px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    display: flex;
+  	justify-content: center;
+  	align-items: center;
+    background: #BDC3C7;
+}
+#div_etiquetaUsuario{
+	width: 70%;
+	height: 100%;
+	float: right;
+	font-family: sans-serif;
+}
+#nombreUsuario{
+	table-layout: fixed;
+	width: 100%;
+	height: 50%;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	color: white;
+}
+#div_contenedorBarraSesion{
+	width: 100%;
+	height: 100%;
+
+}
+#div_identificadorTipoUsuario{
+	width: 100%;
+	height: 50%;
+	color:white;
+	
+
+}
+#identificadorTipoUsuario{
+	cursor:pointer;
+	width: 80%;
+	height: 100%;
+	color:white;
+	float: left;
+	display: flex;
+	justify-content: center;
+  	align-items: center;
+	color: white;
+}
+#div_identificadorTipoUsuario:hover{
+	background-color: #575A5B;
+
+}
+#div_triangulo{
+	width: 20%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+  	align-items: center;
+  	
+}
+#triangulo{
+	width: 0;
+    height: 0;
+    border-left: 6.25px solid transparent;
+    border-right: 6.25px solid transparent;
+    border-top: 12.5px solid white;
+}
+#div_cerrarSesion{
+	cursor:pointer;
+	width: 100%;
+	height: 50%;
+	background-color: black;
+	opacity: 0.5;
+	display: flex;
+	justify-content: center;
+  	align-items: center;
+  	display: none;
+}
+#div_cerrarSesion:hover{
+	text-decoration:underline;
+}
+#boton_volver{
+	width: 7%;
+	height: 100%;
+	background-color: #272827;
+	float: left;
+	border:none;
+	color:white;
+
+}
+.contenedorPrincipal{
+	display: block;
+	width: 100%;
+	height: 652px;
+	margin:0; 
+	margin-top: 2%;
+	padding: 0;
+	background-color: #B2BABB;
+	border:none;
+}
+#VistaPreviaBotonesAreas{
+	width: 100%;
+	height: 10%;
+	float: right;
+	margin:0;
+	padding: 0;
+}
+#btn_editarAreasEvaluacion{
+	width: 15%;
+	float: right;
+	padding-right: 0;
+}
+
+#TablaRespuestasAcciones{
+	border:none;
+	width: 50%;
+}
+.tab{
+	float:left;
+	border:solid;
+	border-width: 1px;
+	border-color: #7B7D7E;
+	width: 30%;
+	height: 250px;
+	background-color: red;
+
+}
+.tabContenido{
+	float:left;
+	background-color: #E5E7E9;
+	display: none;
+	border:solid;
+	border-width:1px;
+	border-color:#7B7D7E;
+	height: 80%;
+	width:69%;
+	font-family: calibri;
+}
+#VistaPreviaPreguntaFiltro{
+	width: 100%;
+	height: 50%;
+	display: block;
+	position: relative;
+	top:0px;
+}
+#VistaPreviaRespuestasPreguntaFiltro{
+	width: 100%;
+	height: 40%;
+}
+
+.EdicionBotones{
+	display: none;
+	float:right;
+	margin-right: 0px;
+	width:22%;
+	height: 10%;
+}
+
+.botonCancelar{
+	float: right;
+	border:none;
+	font-family: calibri;
+	color: white;
+	background-color:#EC7063;
+	width: 49%;
+	height: 80%;
+	margin-right: 1%;
+	margin-top: 5px;
+}
+.botonAplicar{
+	float: left;
+	border:none;
+	font-family: calibri;
+	color: white;
+	background-color:#2ECC71;
+	width: 49%;
+	height: 80%;
+	margin-top: 5px;
+	margin-left: 1%;
+}
+.VistaPreviaBotones{
+	color:#E5E7E9;
+	display: block;
+	width: 100%;
+	height: 10%;
+}
+.botonEditar{
+	float: right;
+	border:none;
+	font-family: calibri;
+	color: white;
+	background-color:#2ECC71;
+	width: 10%;
+	height: 80%;
+	margin-right: 10%;
+	margin-top: 5px;
+}
+.botonEditar:hover{
+	background-color: #196F3D;
+	transition: 0.5s;
+}
+#preguntaFiltro{
+	display: block;
+}
+#descripcionPreguntaFiltro{
+	width: 90%;
+	height: 100px;
+	float:none;
+}
+#VistaPreviaAreasEvaluacion{
+	border:none;
+	width: 100%;
+	height: 80%;
+	margin:0px;
+	padding: 0px;
+}
+.areaEvaluacion{
+	color:white;
+	background-color:#8839F4;
+	opacity: 0.5;
+	border:none;
+	margin: 0px;
+	text-align:center;
+	font-family:calibri;
+	width:99%;
+	height:45px; margin: 2px;
+	font-size:20px									
+}
+.areaEvaluacion:focus {
+	opacity: 1;
+}
+.listaAreasEvaluacion{
+	border:none;
+	float: left;
+	margin-left: 5%;
+	padding: 0px;
+	font-family: calibri;
+	width: 50%;
+	height: 80%;
+	background-color: white;
+	overflow-y: scroll;
+	border:solid 1px #7B7D7E;
+	display: inline-block
+}
+.btns_editarEncuestas{
+	width: 70%;
+	height: 10%;
+	border:none;
+	color:white;
+}
+#btn_VisualizarEncuesta{
+	margin-top: 10%;
+	background-color:#2ECC71;
+	opacity: 0.3;
+}
+#btn_EliminarArea{
+	margin-top: 10%;
+	background-color:#EC7063;
+	opacity: 0.3;
+}
+#btns_renombrarArea{
+	margin-top: 25%;
+	background-color: #D4AC0D;
+	opacity: 0.3;
+}
+#btns_editarEncuestas{
+	display: block;
+	float: right;
+	margin-right: 5%;
+	width: 30%;
+	height: 100%;
+}
+#div_DescripcionArea{
+	align-content: center;
+	width: 100%;
+	height: 55%;
+	margin-top: 20%;
+}
+#textarea_descripcionNuevaArea{
+	border:solid;
+	border:10px;
+	border-color: black;
+	resize:none;
+	width: 50%;
+	height: 80%;
+
+
+}
+#botonesNuevaArea{
+	position: relative;
+	bottom: 0%;
+	float:right;
+	width: 20%;
+	height: 7%;
+	padding: 0;
+	margin-bottom: 0;
+	margin-right: 5px;
+	border:none;
+	background-color: blue;
+}
+.botonesNuevasAreas{
+	margin:0;
+	height: 100%;
+	width: 50%;
+	font-family: calibri;
+	color: white;
+	border:none;
+}
+#boton_guardarArea{
+	float: left;
+
+	background-color:#2ECC71;
+}
+#boton_guardarArea:hover{
+	background-color:#196F3D;
+}
+#boton_cancerlarArea{
+	float: right;
+	background-color:#EC7063;
+}
+#boton_cancerlarArea:hover{
+	background-color:#C0392B;
+}
+.tab button {/*Cambiar las propiedades de todos los botones contenidos en Tab*/
+	display:block;
+	border:none;
+	width:100%;
+	color:#7B7D7E;
+	padding: 23.2px 10px;
+	background-color: white;
+	text-align: center;
+	font-family: calibri;
+	font-size: 30px;
+	transition:0.4s; /*Rapidez con la que cambian de color los botones al pasar el cursor sobre ellos*/
+}
+.tab button:hover{
+	background-color: #56ACE1;
+	color:white;
+}
+.tab button:active{
+	background-color: blue;
+}
+.modalDialog {
+  position: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+  z-index: 99999;
+  opacity:0;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
+}
+.modalDialog:target {
+  opacity:1;
+  pointer-events: auto;
+}
+.modalDialog > div {
+  width: 800px;
+  position: relative;
+  margin: 5% auto;
+  padding: 5px 20px 13px 20px;
+  border-radius: 10px;
+  background: #fff;
+  background: -moz-linear-gradient(#fff, #999);
+  background: -webkit-linear-gradient(#fff, #999);
+  background: -o-linear-gradient(#fff, #999);
+  -webkit-transition: opacity 400ms ease-in;
+-moz-transition: opacity 400ms ease-in;
+transition: opacity 400ms ease-in;
+}
+.close {
+  background: #606061;
+  color: #FFFFFF;
+  line-height: 25px;
+  position: absolute;
+  right: -12px;
+  text-align: center;
+  top: -10px;
+  width: 24px;
+  text-decoration: none;
+  font-weight: bold;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  -moz-box-shadow: 1px 1px 3px #000;
+  -webkit-box-shadow: 1px 1px 3px #000;
+  box-shadow: 1px 1px 3px #000;
+}
+.close:hover { background: #00d9ff; }
+.formulario_nombreArea{
+	width:100%;
+	height: 500px;
+	background-color: red;
+}
+#div_configurarCorreo{
+	width: 100%;
+	height: 50%;
+
+}
+.etiqueta_tab{
+  width: 100%;
+  height: 10%;
+  background-color: #212F3C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  color:white;
+}
+#div_campoCorreo{
+	width: 100%;
+	height: 32%;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	font-family: sans-serif;
+}
+#div_campoPassword{
+	width: 100%;
+	height: 32%;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	font-family: sans-serif;	
+}
+#entrada_correo{
+	width: 50%;
+	height: 20%;
+	opacity: 0.8;
+	text-align: center;
+}
+#div_botonesCorreo{
+	width: 100%;
+	height: 25%;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+#div_botonesEditarCorreo{
+	width: 10%;
+	height: 60%;
+}
+#boton_editarCorreo{
+	width: 100%;
+	height: 100%;
+	background-color:#2ECC71;
+	color: white;
+	border:none;
+}
+#div_botonesAplicarCorreo{
+	width: 30%;
+	height: 60%;
+
+}
+#boton_cancelarCorreo{
+	width: 50%;
+	height: 100%;
+	border:none;
+	background-color:#EC7063;
+	float: right;
+	color:white;
+}
+#boton_guardarCorreo{
+	width: 50%;
+	height: 100%;
+	border:none;
+	float: left;
+	background-color:#2ECC71;
+	color:white;
+}

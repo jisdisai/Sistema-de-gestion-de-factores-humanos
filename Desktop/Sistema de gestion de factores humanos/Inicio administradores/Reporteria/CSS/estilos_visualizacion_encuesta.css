@@ -1,0 +1,320 @@
+#encabezado{
+  width:100%;
+  height: 100px;
+  background-color: #272827;
+  margin:0;
+  padding: 0;
+}
+#div_identificadorPagina{
+  width: 43%;
+  height: 100%;
+  float: left;
+
+}
+#div_iconoPagina{
+  width: 20%;
+  height: 100%;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#div_etiquetaPagina{
+  width: 75%;
+  height: 100%;
+  float: right;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    table-layout: fixed;
+}
+#etiquetaPagina{
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 30px;
+  color: #707B7C;
+  text-align: left;
+}
+#boton_volver{
+  width: 7%;
+  height: 100%;
+  background-color: #272827;
+  float: left;
+  border:none;
+  color:white;
+}
+#div_identificadorUsuario{
+  width: 30%;
+  height: 100%;
+  float: right;
+  color:white;
+
+}
+#div_iconoUsuario{
+  width: 30%;
+  height: 100%;
+  float: left;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#circulo{
+  width: 60px;
+    height: 60px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #BDC3C7;
+}
+#div_etiquetaUsuario{
+  width: 70%;
+  height: 100%;
+  float: right;
+  font-family: sans-serif;
+}
+#nombreUsuario{
+  table-layout: fixed;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+#div_contenedorBarraSesion{
+  width: 100%;
+  height: 100%;
+
+}
+#div_identificadorTipoUsuario{
+  width: 100%;
+  height: 50%;
+  color:white;
+  
+
+}
+#identificadorTipoUsuario{
+  cursor:pointer;
+  width: 80%;
+  height: 100%;
+  color:white;
+  float: left;
+  display: flex;
+  justify-content: center;
+    align-items: center;
+  color: white;
+}
+#div_identificadorTipoUsuario:hover{
+  background-color: #575A5B;
+
+}
+#div_triangulo{
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+    align-items: center;
+    
+}
+#triangulo{
+  width: 0;
+    height: 0;
+    border-left: 6.25px solid transparent;
+    border-right: 6.25px solid transparent;
+    border-top: 12.5px solid white;
+}
+#div_cerrarSesion{
+  cursor:pointer;
+  width: 100%;
+  height: 50%;
+  background-color: black;
+  opacity: 0.5;
+  display: flex;
+  justify-content: center;
+    align-items: center;
+    display: none;
+}
+#div_cerrarSesion:hover{
+  text-decoration:underline;
+}
+
+#contenedorPrincipal{
+  width: 80%;
+  height: 500px;
+  background-color: #E5E7E9;
+  margin: 0;
+  margin-top: 2%;
+  display: block;
+}
+#ventana{
+  width: 40%;
+  height: 70%;
+  background-color: #212F3C;
+  border:solid;
+  border-width: 1px;
+  border-color: #575A5B;
+}
+.div_etiqueta_ventana{
+  width: 100%;
+  height: 10%;
+  color: white;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#div_informacionEstadoEvaluacion{
+  width: 100%;
+  height: 90%;
+  display: block;
+  background-color: white;
+}
+#div_fechaEvaluacion{
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.informacionEstadoEvaluacion{
+  width: 100%;
+  height: 40%;
+
+}
+.div_iconoEstadoEvaluacion{
+  width: 30%;
+  height: 100%;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.etiqueta_faseEvaluacion{
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #212F3C;
+}
+.filaFormulario{
+  width: 100%;
+  height: 20%;
+}
+.columnaFormulario{
+  width: 50%;
+  height: 20%;
+  text-align:right; 
+}
+#contenedorPrincipal_encuesta{
+  width: 80%;
+  height: 800px;
+  background-color: #E5E7E9;
+  margin: 0;
+  margin-top: 2%;
+}
+#div_Preguntas{
+  width: 100%;
+  height: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#contenedor_listaPreguntas{
+  width: 90%;
+  height: 80%;
+  overflow-y: scroll;
+  background-color: white;
+  border:solid;
+  border-width: 1px;
+  border-color: #424949;
+}
+#fila_camposPregunta{
+  background-color:  #272827;
+  font-family: sans-serif;
+  text-align: center;
+  color:white;
+}
+.campo_noPregunta{
+  width: 5%;
+  height: 10%;
+  table-layout: fixed;
+}
+.campoSintomaPregunta{
+  width: 70%;
+  table-layout: fixed;
+}
+.campo_RespuestaPregunta{
+  width: 25%;
+  table-layout: fixed;
+}
+#div_botones_encuesta{
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.botones_encuesta{
+  height: 40%;
+  width: 10%;
+  border:none;
+  color: white; 
+}
+#boton_finalizarEncuesta{
+  background-color: #2ECC71;
+}
+#boton_cancelarEncuesta{
+  background-color: #E74C3C;
+}
+.areaEvaluacion{
+  width: 100%;
+  height: 20%;
+  background-color: #9B59B6;
+  color:white;
+  border:none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  margin-top: 5px;
+  opacity: 0.6;
+  cursor: pointer;
+}
+.filaTablaPreguntas{
+  font-family: sans-serif;
+  text-align: center;
+  width: 100%;
+  background-color: grey;
+}
+.selectRespuesta{
+  width:100%;
+  height:100%;
+  text-align-last:center;
+}
+#Tabla_infoEncuesta{
+  width:90%;
+  height: 100%;
+}
+.fila_infoEncuesta{
+  width:100%;
+  height: 25%;
+  text-align: left;
+  font-family: sans-serif;
+  color: white;
+}
+.columna_infoEncuesta{
+  text-align: left;
+}
+.columna_infoEncuesta_etiqueta{
+  text-align: left;
+}
+.botonVerRespuestas{
+  width: 100%;
+  background-color: red;
+}

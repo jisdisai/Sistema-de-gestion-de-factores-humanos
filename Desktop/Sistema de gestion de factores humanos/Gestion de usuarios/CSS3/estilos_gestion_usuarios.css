@@ -1,0 +1,373 @@
+#encabezado{
+  width:100%;
+  height: 100px;
+  background-color: #272827;
+  margin:0;
+  padding: 0;
+}
+#div_identificadorPagina{
+  width: 30%;
+  height: 100%;
+  float: left;
+}
+#div_iconoPagina{
+  width: 25%;
+  height: 100%;
+  float: left;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#div_etiquetaPagina{
+  width: 75%;
+  height: 100%;
+  float: right;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    table-layout: fixed;
+}
+#etiquetaPagina{
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 30px;
+  color: #707B7C;
+  text-align: left;
+}
+#div_identificadorUsuario{
+  width: 30%;
+  height: 100%;
+  float: right;
+  color:white;
+
+}
+#div_iconoUsuario{
+  width: 30%;
+  height: 100%;
+  float: left;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#circulo{
+  width: 60px;
+    height: 60px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #BDC3C7;
+}
+#div_etiquetaUsuario{
+  width: 70%;
+  height: 100%;
+  float: right;
+  font-family: sans-serif;
+}
+#Encabezado_nombreUsuario{
+  table-layout: fixed;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+#div_contenedorBarraSesion{
+  width: 100%;
+  height: 100%;
+
+}
+#div_identificadorTipoUsuario{
+  width: 100%;
+  height: 50%;
+  color:white;
+  
+
+}
+#identificadorTipoUsuario{
+  cursor:pointer;
+  width: 80%;
+  height: 100%;
+  color:white;
+  float: left;
+  display: flex;
+  justify-content: center;
+    align-items: center;
+  color: white;
+}
+#div_identificadorTipoUsuario:hover{
+  background-color: #575A5B;
+
+}
+#div_triangulo{
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+    align-items: center;
+    
+}
+#triangulo{
+  width: 0;
+    height: 0;
+    border-left: 6.25px solid transparent;
+    border-right: 6.25px solid transparent;
+    border-top: 12.5px solid white;
+}
+#div_cerrarSesion{
+  cursor:pointer;
+  width: 100%;
+  height: 50%;
+  background-color: black;
+  opacity: 0.5;
+  display: flex;
+  justify-content: center;
+    align-items: center;
+    display: none;
+}
+#div_cerrarSesion:hover{
+  text-decoration:underline;
+}
+#boton_volver{
+  width: 7%;
+  height: 100%;
+  background-color: #272827;
+  float: left;
+  border:none;
+  color:white;
+
+}
+#contenedorPrincipal{
+  background-color: #B2BABB;
+  width: 100%;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: arial;
+  font-size: 15px;
+  font-style: bold;
+}
+.contenedorSecundario{
+  width: 70%;
+  height: 80%;
+  border:solid;
+  border-width: 1px;
+  border-color: #707B7C;
+  background-color: #E5E7E9;
+  display: block;
+}
+#barra_contenedorSecundario{
+  width: 100%;
+  height: 15%;
+  background-color: #212F3C;
+  display: inline-block;
+}
+#seleccionadorRol{
+  margin: 0;
+  float: left;
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#div_buscador{
+  float: right;
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#div_vistaPreviaUsuarios{
+  width: 80%;
+  height: 65%;
+  background-color: white;
+  border:solid;
+  border-width: 1px;
+  border-color: #707B7C;
+  margin-left:10%;
+  margin-top: 5%;
+  margin-bottom: 0;
+  margin-right: 0;
+  overflow-y: scroll;
+}
+.camposUsuarios{
+  background-color: #272827;
+  color:white;
+}
+#div_botonesVistaPrevia{
+  width: 100%;
+  height: 13%;
+}
+#boton_agregarUsuario{
+  border: none;
+  color:white;
+  height: 35%;
+  width: 10%;
+  background-color: #2ECC71;
+  float: right;
+  margin-right: 5%;
+  margin-top:3%;
+}
+
+#boton_editarUsuario{
+  border:none;
+  color:white;
+  background-color: #2ECC71;
+  float:right;
+  margin:0;
+  width: 50%;
+  height: 50px;
+
+}
+#boton_eliminarUsuario{
+  border:none;
+  color:white;
+  background-color:#EC7063;
+  float:left;
+  margin:0;
+  width: 50%;
+  height: 50px;
+
+}
+
+#boton_agregarUsuario:hover{
+  background-color: #196F3D;
+}
+#formulario1-agregarUsuario{
+  display:none;
+  transition: 5s;
+
+}
+#div_barraFormulario{
+  width: 100%;
+  height: 15%;
+  background-color: #212F3C;
+}
+#boton_cancelarNuevoUsuario{
+  float: right;
+  width: 20%;
+  height: 100%;
+  background-color: #212F3C;
+  color:white;
+  border:none;
+}
+#div_noEmpleado{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 85%;
+  
+}
+#div_AdvertenciaDatosUsuario{
+  width: 100%;
+  height: 15%;
+  margin-top: 5%;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#formulario_noEmpleado{
+  text-align: center;
+  color:white;
+  width: 50%;
+  height: 60%;
+  display: block
+  border-radius: 15px;
+}
+#nEmpleado{
+  background-color: #D5DBDB;
+  border:none;
+  border-radius: 10px;
+  width: 40%;
+  height: 12%;
+  color: #424949;
+  font-size: 30px;
+}
+
+#boton_finNEmpleado{
+  height: 10%;
+  width: 30%;
+  margin-top: 10%;
+  border:none;
+  border-radius: 5px;
+  color:white;
+  background-color: #2ECC71;
+  font-style: bold;
+}
+#div_formularioDatosUsuario{
+  width: 100%;
+  height: 85%;
+  background-color: #F4F6F7 ;
+
+}
+#identificadorFormulario{
+  height: 100%;
+  width: 80%;
+  display: flex;
+  color:white;
+  justify-content: center;
+  align-items: center;
+  float: left;
+}
+#div_NEmpleado{
+  width: 100%;
+  height: 100%;
+}
+.fila_formulario{
+  width: 100%;
+  height: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.campo_textoFormulario{
+  background-color: #D5DBDB;
+  border:none;
+  border-radius: 10px;
+  width: 50%;
+  height: 90%;
+  color: #424949;
+  font-size: 30px;
+}
+.etiquetaNUEmpleado{
+  width: 30%;
+  height: 100%;
+}
+#div_botonesDatosUsuarios{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+#div_botonesregistrar{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#boton_datosUsuario, #boton_registrarUsuario{
+  height: 100%;
+  width: 15%;
+  border:none;
+  border-radius: 5px;
+  color:white;
+  background-color: #2ECC71;
+  font-style: bold;
+
+}
+#div_formularioPasswordTipo{
+  width: 100%;
+  height: 85%;
+  background-color:  #F4F6F7;
+
+}

@@ -1,0 +1,93 @@
+#encabezado{
+	width: 100%;
+	height: 100px;
+	background-color: #272827;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+
+}
+#etiquetaPagina{
+	width: 80%;
+	height: 100%;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	font-family: sans-serif;
+  	font-size: 40px;
+  	color: #707B7C;
+}
+#contenedorPrincipal{
+	width: 100%;
+	height: 700px;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	background-color: #B2BABB;
+
+}
+#formulario_login{
+	width: 40%;
+	height: 60%;
+	background-color: #272827;
+	border-radius: 10px;
+	color:white;
+	font-size: 20px;
+	font-family: sans-serif;
+
+}
+.fila_formulario{
+	width: 100%;
+	height: 33%;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+
+}
+#contenedor_submit{
+	width: 100%;
+	height: 33%;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+
+}
+.etiqueta{
+	width: 50%;
+	height: 100%;
+	float: left;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+.contenedor_input{
+	width: 50%;
+	height: 20%;
+	background-color: 
+	float: right;
+
+}
+.input{
+	float: left;
+	height: 100%;
+	width: 85%;
+	background-color:  #272827;
+	color: white;
+	font-size: 17px;
+	border:solid 2px #515A5A;
+	text-align: center;
+
+
+}
+#submit{
+	border:none;
+	color: white;
+	border-radius: 3px;
+	width: 20%;
+	height: 20%;
+	background-color: #2471A3;
+	cursor: pointer;
+}
+#submit:hover{
+	background-color: #154360;
+}
